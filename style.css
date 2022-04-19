@@ -4,18 +4,36 @@
 
 body{
     margin:0px;
+    background-color:goldenrod;
+    align-content: center;
+   
 
 }
 
 
-table,tr,td,th {
+table,td,th {
     border: 1px solid black;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
+    align-items: center;
+   
+ 
+}
+
+th{
     
+    align-content: center;
     
+}
+
+tbody{
     
+}
+
+thead{
+    background-color:grey
     
 }
 
@@ -24,9 +42,18 @@ table,tr,td,th {
     float: right;
 }
 
-body{
-    background-color:goldenrod;
+.github:hover{
+    background-color:rgba(0,0,0,0.5);
+    
 }
+
+.github:active{
+    background-color:#2B2B2B
+    
+}
+
+
+
 
 td{
     text-align: center;
@@ -44,6 +71,16 @@ header li a{
     padding: 14px 16px;
     text-decoration: none;
 }
+
+header li a:hover{ 
+    color: grey;
+}
+
+header li a:active{ 
+    color: black;
+}
+
+
 
 header ul{
     background-color:maroon;
